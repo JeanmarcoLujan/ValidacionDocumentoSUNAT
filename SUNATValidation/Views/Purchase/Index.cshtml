@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form enctype="multipart/form-data" method="post" asp-controller="Purchase" asp-action="ImportExcelFile">
+    <dl>
+        <dt>
+            <label>Upload Excel:</label>
+        </dt>
+        <dd>
+            <input type="file" name="FormFile" id="FormFile">
+
+        </dd>
+    </dl>
+    <input class="btn btn-danger" type="submit" value="Upload" />
+</form>
+<br/>
+<div class="">
+    <!--Show Message if file is uploaded or not-->
+    @ViewBag.Message
+</div>
