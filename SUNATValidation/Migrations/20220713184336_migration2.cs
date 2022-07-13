@@ -4,7 +4,7 @@
 
 namespace SUNATValidation.Migrations
 {
-    public partial class MyFirstMigrationII : Migration
+    public partial class migration2 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

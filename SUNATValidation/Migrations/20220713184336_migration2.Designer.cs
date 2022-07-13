@@ -12,8 +12,8 @@ using SUNATValidation.Context;
 namespace SUNATValidation.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20220613021320_MyFirstMigrationII")]
-    partial class MyFirstMigrationII
+    [Migration("20220713184336_migration2")]
+    partial class migration2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
